@@ -7,11 +7,33 @@
 .footer__title{
     font-family: 'Poiret One', sans-serif;
     font-weight: 400;
+    font-size: var(--titre-6);
+    line-height: 30px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    text-align: center;
 }
-.footer__paragraphe .footer__lien .footer__copyright{
+.footer__paragraphe, .footer__lien>p, .footer__copyright{
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
+    text-align: center;
+    font-size: var(--paragraphe);
+    line-height: 30px;
+    margin: 0;
+
 }
+.footer__navigation{
+    border-top: solid var(--blue) 1px;
+    border-bottom: solid var(--blue) 1px;
+    display: flex;
+    justify-content: center;
+}
+.footer__lien{
+    width: 100px;
+}
+/* .footer__lien>p {
+    margin: 0;
+} */
 
 /*
 font-family: 'Poiret One', sans-serif;
