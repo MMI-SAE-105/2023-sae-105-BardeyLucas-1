@@ -42,6 +42,7 @@ main{
     margin-left: calc(100% - 130px);
 }
 .intro__button>p{
+    color: var(--black);
     margin: 0;
     font-family: 'Tenor sans', sans-serif;
     font-weight: 400;
@@ -95,6 +96,8 @@ main{
     font-family: 'Tenor sans', sans-serif;
     font-weight: 400;
     font-size: var(--titre-3);
+    margin: 5px 0;
+    margin-left: 20px;
 }
 .info__ligneTexte{
     margin: 0 20px;
@@ -108,8 +111,25 @@ main{
     width: 50%;
     margin: 0;
 }
-.info__button{
-    margin:20px 0;
+.info__button {
+    color: var(--white);
+    background-color: var(--black);
+    border: solid var(--white) 1px;
+    height: 35px;
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: calc(50% - 75px);
+}
+.info__button>p {
+    margin: 0;
+    font-family: 'Tenor sans', sans-serif;
+    font-weight: 400;
+    font-size: var(--titre-3);
+}
+.info__texteTarifs{
+    margin: 5px 30px;
 }
 /*cards*/
 .frise__cards{
