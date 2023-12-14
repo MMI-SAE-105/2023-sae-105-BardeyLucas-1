@@ -10,9 +10,16 @@ main{
     margin-left: 30px;
     margin-top: 10px;
 }
+/*cards*/
 .frise__cards{
     width: calc((90% - 40px)/2);
 }
+.frise__date{
+
+}
 .frise__image{
     width: 100%;
+}
+.frise__legende {
+
 }
