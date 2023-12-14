@@ -9,27 +9,26 @@ main{
     background-color: var(--white);
 }
 .intro__cover{
-    width: calc(100% - 40px);
-    margin-left: 20px;
+    width: 100%;
 }
 .intro__logo{
     width: 60px;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 10px;
     float: left;
     margin-bottom: -10px;
     margin-right: 15px;
 }
 .intro__texte{
-    margin-left: 30px;
-    width:calc(100% - 60px);
+    margin-left: 10px;
+    width:calc(100% - 20px);
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: var(--paragraphe);
     margin-top: 25px;
 }
 .intro__texte2{
-    margin: 0 30px;
+    margin: 0 10px;
 }
 .intro__button{
     margin-top: 10px;
@@ -132,7 +131,7 @@ main{
     margin: 5px 30px;
 }
 .section__frise{
-    padding: 50px;
+    padding: 50px 0;
     row-gap: 50px;
     margin: 0 20px;
     display: flex;
@@ -141,7 +140,7 @@ main{
 }
 /*cards*/
 .frise__cards{
-    width: calc((90% - 40px)/2);
+    width: calc(90%/2);
     background-color: var(--black);
     color: white;
     border-top-left-radius: 10px;

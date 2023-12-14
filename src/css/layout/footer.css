@@ -12,6 +12,7 @@
     margin-top: 12px;
     margin-bottom: 0;
     text-align: center;
+    padding-top: 12px;
 }
 .footer__paragraphe, .footer__lien>p, .footer__copyright{
     font-family: 'Rubik', sans-serif;
