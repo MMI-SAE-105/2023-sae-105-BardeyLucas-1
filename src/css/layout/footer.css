@@ -1,6 +1,7 @@
 .footer {
     background-color: var(--black);
     color: white;
+    border-top-right-radius: 50px;
 }
 
 .footer__title{
