@@ -34,6 +34,9 @@
 .header__menu{
     margin-top: 20px;
 }
+.menu__list{
+    padding-left: 20px;
+}
 .menu__lien{
     list-style: none;
 }
