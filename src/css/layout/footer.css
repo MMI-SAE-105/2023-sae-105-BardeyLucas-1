@@ -1,3 +1,8 @@
+.footer {
+    background-color: var(--black);
+    color: white;
+}
+
 .footer__title{
     font-family: 'Poiret One', sans-serif;
     font-weight: 400;
