@@ -1,7 +1,9 @@
 .header{
-    background: linear-gradient(rgba(12, 28, 28, 1) 260px, rgba(12, 28, 28, 0));
+    /* background: linear-gradient(rgba(12, 28, 28, 1) 260px, rgba(12, 28, 28, 0));
+    height: 280px; */
+    background: linear-gradient(rgba(12, 28, 28, 1) 75px, rgba(12, 28, 28, 0));
+    height: 80px;
     color: white;
-    height: 280px;
 }
 
 .header__bar{
