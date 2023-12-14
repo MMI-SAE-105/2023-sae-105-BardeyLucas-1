@@ -1,0 +1,19 @@
+:root {
+    /* Color styles */
+    --white: rgba(252, 255, 255, 1);
+    --grey: rgba(208, 221, 221, 1);
+    --sky: rgba(156, 192, 192, 1);
+    --blue: rgba(82, 128, 128, 1);
+    --black: rgba(12, 28, 28, 1);
+
+    /* Text-size styles */
+    
+
+    /* base size: titre-3 (16px) */
+    --paragraphe: 0.75rem;
+    --titre-1: 1.88rem;
+    --titre-6: 1rem;
+    --titre-2: 1.25rem;
+    --titre-3: 1rem;
+    --date: 1.5rem;
+}
