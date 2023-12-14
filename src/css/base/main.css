@@ -1,3 +1,18 @@
 main{
     margin-top: 75px;
 }
+.intro__cover{
+    width: calc(100% - 40px);
+    margin-left: 20px;
+}
+.intro__logo{
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.frise__cards{
+    width: calc((90% - 40px)/2);
+}
+.frise__image{
+    width: 100%;
+}
