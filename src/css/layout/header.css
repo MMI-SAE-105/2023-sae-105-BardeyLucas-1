@@ -11,7 +11,12 @@
     padding-top: 30px;
     font-size: var(--titre-1);
 }
-
+.header__button{
+    background: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
 .menu__lien {
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 400;
