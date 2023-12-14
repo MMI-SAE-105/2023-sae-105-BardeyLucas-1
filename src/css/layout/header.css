@@ -6,6 +6,10 @@
 .header__title {
     font-family: 'Poiret One', sans-serif;
     font-weight: 400;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: var(--titre-1);
 }
 
 .menu__lien {
