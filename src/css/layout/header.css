@@ -30,8 +30,17 @@
     width: 30px;
     height: 30px;
 }
-.menu__lien {
+.header__menu{
+    margin-top: 20px;
+}
+.menu__lien{
+    list-style: none;
+}
+.menu__lien>a>h2 {
+    margin: 0;
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
 }
 
