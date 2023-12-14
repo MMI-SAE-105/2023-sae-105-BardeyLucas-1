@@ -13,9 +13,11 @@ main{
 /*cards*/
 .frise__cards{
     width: calc((90% - 40px)/2);
+    background-color: var(--black);
+    color: white;
 }
 .frise__date{
-
+    
 }
 .frise__image{
     width: 100%;
