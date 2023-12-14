@@ -1,6 +1,7 @@
 .header{
-    background-color: var(--black);
+    background: linear-gradient(rgba(12, 28, 28, 1) 260px, rgba(12, 28, 28, 0));
     color: white;
+    height: 280px;
 }
 
 .header__bar{
