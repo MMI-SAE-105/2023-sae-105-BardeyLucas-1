@@ -24,9 +24,6 @@ figcaption {
     margin: 0px 20px;
     background-color: var(--white);
 }
-.intro__cover{
-    width: 100%;
-}
 .intro__logo{
     width: 60px;
     margin-left: 10px;
