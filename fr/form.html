@@ -25,7 +25,25 @@
         </nav> -->
     </header>
     <main>
-
+        <section class="section__form">
+            <h2 class="form__titre">Nous contacter</h2>
+            <div class="form__prenom"><label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" required minlength="1" maxlength="20">
+            </div>
+            <div class="form__nom"><label for="nom">Nom :</label>
+                <input type="text" id="nom" required minlength="1" maxlength="20">
+            </div>
+            <div class="form__contacte"><label for="contacte">Email/Numéro de téléphone :</label>
+                <input type="email" id="contacte" required minlength="1" maxlength="320">
+            </div>
+            <div class="form__objet"><label for="objet">Objet :</label>
+                <input type="text" id="objet" required minlength="1" maxlength="50">
+            </div>
+            <div class="form__message"><label for="message">Message :</label>
+                <textarea id="message" required minlength="1" maxlength="1000"></textarea>
+            </div>
+            <div class="form__button"><button>Envoyer</button></div>
+        </section>
     </main>
     <footer class="footer">
         <h6 class="footer__title">Future Origins</h6>

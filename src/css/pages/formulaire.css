@@ -1,0 +1,99 @@
+.section__form{
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 120px;
+    margin-bottom: -100px;
+    background-color: var(--black);
+    color: var(--white);
+}
+.section__form>div{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form__titre{
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Tenor sans', sans-serif;
+    font-weight: 400;
+    font-size: var(--titre-2);
+}
+.form__prenom{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: var(--paragraphe);
+}
+.form__prenom>input{
+    padding: 0 10px;
+    background-color: var(--black);
+    border: solid var(--white) 1px;
+    border-radius: 50px;
+    height: 20px;
+    color: var(--white);
+}
+.form__nom {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: var(--paragraphe);
+}
+.form__nom>input {
+    padding: 0 10px;
+    background-color: var(--black);
+    border: solid var(--white) 1px;
+    border-radius: 50px;
+    height: 20px;
+    color: var(--white);
+}
+.form__contacte {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: var(--paragraphe);
+}
+.form__contacte>input {
+    padding: 0 10px;
+    background-color: var(--black);
+    border: solid var(--white) 1px;
+    border-radius: 50px;
+    height: 20px;
+    color: var(--white);
+}
+.form__objet {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: var(--paragraphe);
+}
+.form__objet>input {
+    padding: 0 10px;
+    background-color: var(--black);
+    border: solid var(--white) 1px;
+    border-radius: 50px;
+    height: 20px;
+    color: var(--white);
+}
+.form__message {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: var(--paragraphe);
+}
+.form__message>textarea {
+    padding: 5px 10px;
+    background-color: var(--black);
+    border: solid var(--white) 1px;
+    border-radius: 10px;
+    height: 100px;
+    color: var(--white);
+}
+.form__button>button {
+    width: 120px;
+    margin-left: calc((100% - 120px)/2);
+    margin-top: 20px;
+    background-color: var(--black);
+    border: solid var(--white) 1px;
+    border-radius: 50px;
+    height: 40px;
+    color: var(--white);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: var(--paragraphe);
+}
