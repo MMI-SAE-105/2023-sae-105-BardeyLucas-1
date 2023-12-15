@@ -31,6 +31,8 @@
 }
 .footer__lien{
     width: 100px;
+    color: var(--white);
+    text-decoration: none;
 }
 /* .footer__lien>p {
     margin: 0;

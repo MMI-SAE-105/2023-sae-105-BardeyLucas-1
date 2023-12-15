@@ -139,8 +139,10 @@ main{
     justify-content: space-between;
 }
 /*cards*/
-.frise__cards{
+.frise__cardLien{
     width: calc(90%/2);
+}
+.frise__cards{
     background-color: var(--black);
     color: white;
     border-top-left-radius: 10px;
