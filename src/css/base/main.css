@@ -8,13 +8,14 @@ figure{
     flex-direction: column;
 }
 figcaption {
-    margin-left: 20px;
+    margin-top: 5px;
     font-size: var(--legende);
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: var(--paragraphe);
     font-style: italic;
     text-align: center;
+    margin-left: 20px;
 }
 .section__intro{
     background-color: var(--black);

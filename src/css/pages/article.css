@@ -10,6 +10,9 @@
     font-size: var(--titre-2);
     margin-bottom: 0;
 }
+.Aintro__Fimage>figcaption{
+    margin-left: 0;
+}
 .Aintro__image{
     width: 100%;
     border-bottom-left-radius: 1px ;
@@ -18,22 +21,28 @@
 .section__Aarticle {
 
 }
+.Aarticle__Fimage1{
+    width: 205px;
+}
 .Aarticle__image1{
     width: 185px;
     border-radius: 25px 50px 25px 50px;
-    margin-left: 20px;
     margin-top: 20px;
     padding-right: 100px;
+    margin-left: 20px;
+}
+.Aarticle__Fportrait{
+    margin-left: 10px;
+    width: 120px;
+    float: left;
+    padding-right: 10px;
 }
 .Aarticle__portrait{
     margin-top: 30px;
-    margin-left: 50px;
     margin-left: 20px;
     width: 100px;
     border-bottom-left-radius: 1px;
     border-bottom-right-radius: 1px;
-    float: left;
-    padding-right: 10px;
 }
 .Aarticle__texte{
     margin: 0 20px;
@@ -45,6 +54,9 @@
 .Aarticle__texte1{
     margin-top: 30px;
 }
+.Aarticle__Fimage2>figcaption{
+    margin-left: 0;
+}
 .Aarticle__image2 {
     margin-top: 10px;
     width: calc(100% - 40px);
@@ -52,9 +64,15 @@
     border-bottom-left-radius: 1px;
     border-bottom-right-radius: 1px;
 }
+.Aarticle__Fimage3 {
+    margin-bottom: 15px;
+}
+.Aarticle__Fimage3>figcaption {
+    margin-left: calc(100% - 205px);
+    width: 185px;
+}
 .Aarticle__image3 {
     margin-top: 35px;
-    margin-bottom: 15px;
     margin-left: calc(100% - 205px);
     width: 185px;
     border-radius: 25px 50px 25px 50px;
