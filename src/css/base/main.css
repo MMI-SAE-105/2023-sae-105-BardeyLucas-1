@@ -165,3 +165,23 @@ figcaption {
 .texte__correctif{
     padding-top: 10px;
 }
+.main__index{
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: -184px;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main__index>a{
+    font-family: 'Tenor sans', sans-serif;
+    font-weight: 400;
+    font-size: var(--titre-2);
+    color: var(--white);
+    text-decoration: none;
+    padding-top: 10px;
+}
+.main__indexPosition{
+    margin-top: 200px;
+}
