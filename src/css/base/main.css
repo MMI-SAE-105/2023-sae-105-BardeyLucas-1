@@ -162,3 +162,6 @@ figcaption {
     font-size: var(--paragraphe);
     border-bottom-left-radius: 50px;
 }
+.texte__correctif{
+    padding-top: 10px;
+}

@@ -1,5 +1,5 @@
 .section__Aartiste{
-    height: 200px;
+    height: 230px;
 }
 .Aartiste__titre{
     margin-left: 20px;
@@ -10,11 +10,14 @@
     font-size: var(--titre-2);
     margin-bottom: 0;
 }
+.Aartiste__Fimage {
+    width: 170px;
+    float: left;
+    margin-right: 20px;
+}
 .Aartiste__image{
     margin-left: 20px;
     width: 150px;
-    float: left;
-    margin-right: 20px;
 }
 .Aartiste__texte{
     margin: 0 20px;
@@ -24,7 +27,10 @@
     margin-top: 10px;
 }
 .section__Astory{
-
+    
+}
+.Astory__Fportrait1{
+    width: 195px;
 }
 .Astory__portrait1{
     width: 185px;
@@ -43,28 +49,41 @@
 .Astory__texte1{
     margin-top: 30px;
 }
+.Astory__Fimage1{
+    width: 205px;
+    float: right;
+}
 .Astory__image1{
     width: 185px;
     border-radius: 50px 25px 50px 25px;
-    float: right;
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Astory__Fportrait2{
+    width: 205px;
+    float: left;
     margin-right: 20px;
 }
 .Astory__portrait2{
     width: 185px;
     border-radius: 25px 50px 25px 50px;
-    float: left;
     margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 10px;
 }
 .Astory__texte2{
     margin-top: 30px;
 }
+.Astory__Fimage2{
+    margin-left: calc(100% - 205px);
+    width: 205px;
+    margin-bottom: 25px;
+}
+.Astory__Fimage2>figcaption{
+    margin-left: 0;
+    margin-right: 20px;
+}
 .Astory__image2 {
     margin-top: 35px;
-    margin-bottom: 15px;
     margin-left: calc(100% - 205px);
     width: 185px;
     border-radius: 25px 50px 25px 50px;

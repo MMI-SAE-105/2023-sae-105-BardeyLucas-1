@@ -52,7 +52,7 @@
     margin-top: 10px;
 }
 .Aarticle__texte1{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .Aarticle__Fimage2>figcaption{
     margin-left: 0;
@@ -65,7 +65,7 @@
     border-bottom-right-radius: 1px;
 }
 .Aarticle__Fimage3 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .Aarticle__Fimage3>figcaption {
     margin-left: calc(100% - 205px);
