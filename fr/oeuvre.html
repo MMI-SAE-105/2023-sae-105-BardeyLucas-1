@@ -7,23 +7,30 @@
     <link rel="stylesheet" href="/src/css/style.css" />
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
-<body>
+<body x-data="{Menu: 0}" :class="{noscroll:Menu}">
     <header class="header">
         <div class="header__bar">
             <a class="header__lien" href="index.html">
                 <h1 class="header__title">Future Origins</h1>
             </a>
-            <button class="header__button">
-                <img class="button__menu" src="/public/icones/Menu.svg" alt="menu">
+            <button class="header__button" @click="Menu =! Menu">
+                <img x-show="Menu == 0" class="button__menu" src="/public/icones/Menu.svg" alt="menu">
+                <img x-show="Menu == 1" class="button__menu" src="/public/icones/Croix.png" alt="quitter">
             </button>
         </div>
-        <!--<nav class="header__menu">
+        <nav x-show="Menu == 1" class="header__menu">
             <ul class="menu__list">
-                <li class="menu__lien"><a href="#"><h2>Billetterie</h2></a></li>
-                <li class="menu__lien"><a href="form.html"><h2>Nous contacter</h2></a></li>
-                <li class="menu__lien"><a href="#"><h2>Mentions légales</h2></a></li>
+                <li class="menu__lien"><a href="#">
+                        <h2>Billetterie</h2>
+                    </a></li>
+                <li class="menu__lien"><a href="form.html">
+                        <h2>Nous contacter</h2>
+                    </a></li>
+                <li class="menu__lien"><a href="#">
+                        <h2>Mentions légales</h2>
+                    </a></li>
             </ul>
-        </nav> -->
+        </nav>
     </header>
     <main>
         <section class="section__Aintro">

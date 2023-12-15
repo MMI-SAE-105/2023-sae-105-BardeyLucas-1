@@ -1,6 +1,4 @@
-.header{
-    /* background: linear-gradient(rgba(12, 28, 28, 1) 260px, rgba(12, 28, 28, 0));
-    height: 280px; */
+.header{ 
     background: linear-gradient(rgba(12, 28, 28, 1) 75px, rgba(12, 28, 28, 0));
     top: 0;
     width: 100%;
@@ -40,15 +38,23 @@
     height: 30px;
 }
 .header__menu{
-    margin-top: 20px;
+    margin-top: -21px;
+    z-index: 2;
+    background: linear-gradient(rgba(12, 28, 28, 1) 180px, rgba(12, 28, 28, 0));
+    height: 200px;
 }
 .menu__list{
+    padding: 20px;
     padding-left: 20px;
 }
 .menu__lien{
     list-style: none;
 }
+.menu__lien>a {
+        text-decoration: none;
+}
 .menu__lien>a>h2 {
+    color: var(--white);
     margin: 0;
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 400;
