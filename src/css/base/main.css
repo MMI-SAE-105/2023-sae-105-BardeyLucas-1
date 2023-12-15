@@ -102,8 +102,7 @@ main{
 .info__ligneTexte{
     margin: 0 20px;
     display: flex;
-    font-family: 'Rubik',
-    sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: var(--paragraphe);
 }
@@ -139,4 +138,12 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/*cards*/
+.section__bio {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: var(--paragraphe);
+    border-bottom-left-radius: 50px;
+}
