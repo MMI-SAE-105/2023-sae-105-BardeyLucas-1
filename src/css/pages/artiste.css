@@ -16,6 +16,8 @@
 .Astory__portrait1{
     width: 185px;
     border-radius: 25px 50px 25px 50px;
+    margin-right: 100px;
+
 }
 .Astory__texte{
 
@@ -23,10 +25,12 @@
 .Astory__image1{
     width: 185px;
     border-radius: 50px 25px 50px 25px;
+    float: right;
 }
 .Astory__portrait2{
     width: 185px;
     border-radius: 25px 50px 25px 50px;
+    float: left;
 }
 .Astory__image2 {
     width: 185px;
