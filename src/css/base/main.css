@@ -2,6 +2,20 @@ main{
     margin-top: 75px;
     background-color: white;
 }
+figure{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+figcaption {
+    margin-left: 20px;
+    font-size: var(--legende);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: var(--paragraphe);
+    font-style: italic;
+    text-align: center;
+}
 .section__intro{
     background-color: var(--black);
 }
