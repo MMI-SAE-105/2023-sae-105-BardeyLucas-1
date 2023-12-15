@@ -141,6 +141,7 @@ main{
 /*cards*/
 .frise__cardLien{
     width: calc(90%/2);
+    text-decoration: none;
 }
 .frise__cards{
     background-color: var(--black);
