@@ -5,7 +5,7 @@
 
 }
 .Aartiste__image{
-
+    width: 150px;
 }
 .Aartiste__texte{
 
@@ -14,17 +14,21 @@
 
 }
 .Astory__portrait1{
-
+    width: 185px;
+    border-radius: 25px 50px 25px 50px;
 }
 .Astory__texte{
 
 }
 .Astory__image1{
-
+    width: 185px;
+    border-radius: 50px 25px 50px 25px;
 }
 .Astory__portrait2{
-
+    width: 185px;
+    border-radius: 25px 50px 25px 50px;
 }
 .Astory__image2 {
-    
+    width: 185px;
+    border-radius: 25px 50px 25px 50px;
 }
