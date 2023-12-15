@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Future Origins</title>
     <link rel="stylesheet" href="/src/css/style.css" />
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
-    <header class="header">
+    <header class="header" x-data="{Menu: 0}">
         <div class="header__bar">
             <a class="header__lien" href="index.html"><h1 class="header__title">Future Origins</h1></a>
-            <button class="header__button">
+            <button class="header__button" @click="MenuOpen ! = MenuOpen">
                 <img class="button__menu" src="/public/icones/Menu.svg" alt="menu">
             </button>
         </div>
-        <!--<nav class="header__menu">
+        <nav class="header__menu" x-show="Menu == 1">
             <ul class="menu__list">
                 <li class="menu__lien"><a href="#"><h2>Billetterie</h2></a></li>
                 <li class="menu__lien"><a href="form.html"><h2>Nous contacter</h2></a></li>
                 <li class="menu__lien"><a href="#"><h2>Mentions légales</h2></a></li>
             </ul>
-        </nav> -->
+        </nav>
     </header>
     <main class="index">
         <section class="section__intro">
