@@ -1,5 +1,6 @@
 main{
     margin-top: 75px;
+    background-color: white;
 }
 .section__intro{
     background-color: var(--black);
