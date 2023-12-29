@@ -5,6 +5,7 @@
     height: 80px;
     color: white;
     position: fixed;
+    z-index: 10;
 }
 
 .header__bar{

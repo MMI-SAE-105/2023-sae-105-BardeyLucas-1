@@ -27,25 +27,36 @@
     <main class="index">
         <section class="section__intro">
             <div class="intro__card">
-                <div class="intro__carrousel">
-                    <div>
+                <div class="intro__carrousel" x-data="{hrefCourant: '#ecran-1',}">
+                            <button class="intro__btn intro__btnAR" aria-label="slide précedant"
+                                @click="parent = $x1.$refs.parent, parent.scrollLeft -= parent.clientWidth">
+                                < </button><button class="intro__btn intro__btnAV" aria-label="slide suivant"
+                                        @click="$x1.$refs.parent, parent.scrollLeft += parent.clientWidth"> > </button>
+                            <div class="intro__parent" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant = '#'+
+                  [...$refs.parent.children]
+                   .find(e=>e.getBoundingClientRect().x>=0)
+                   .id
+                                     ">
+
+                    <div id="ecran-1" class="intro__ecran">
                         <img class="intro__cover" src="/public/img/Carr1.png" alt="Selfridges Building, Interieur">
                     </div>
-                    <div>
-                        <img class="intro__cover" src="/public/img/Carr1.png" alt="Selfridges Building, Interieur">
+                    <div id="ecran-2" class="intro__ecran">
+                        <img class="intro__cover" src="/public/img/Carr2.png" alt="Selfridges Building, Interieur">
                     </div>
-                    <div>
-                        <img class="intro__cover" src="/public/img/Carr1.png" alt="Selfridges Building, Interieur">
+                    <div id="ecran-3" class="intro__ecran">
+                        <img class="intro__cover" src="/public/img/Carr3.png" alt="Selfridges Building, Interieur">
                     </div>
-                    <div>
-                        <img class="intro__cover" src="/public/img/Carr1.png" alt="Selfridges Building, Interieur">
+                    <div id="ecran-4" class="intro__ecran">
+                        <img class="intro__cover" src="/public/img/Carr4.png" alt="Selfridges Building, Interieur">
                     </div>
-                    <div>
-                        <img class="intro__cover" src="/public/img/Carr1.png" alt="Selfridges Building, Interieur">
+                    <div id="ecran-5" class="intro__ecran">
+                        <img class="intro__cover" src="/public/img/Carr5.png" alt="Selfridges Building, Interieur">
                     </div>
-                    <div>
-                        <img class="intro__cover" src="/public/img/Carr1.png" alt="Selfridges Building, Interieur">
+                    <div id="ecran-6" class="intro__ecran">
+                        <img class="intro__cover" src="/public/img/Carr6.png" alt="Selfridges Building, Interieur">
                     </div>
+                </div>
                 </div>
                 <img class="intro__logo" src="/public/icones/FutureSystems.png" alt="FUTURE SYSTEMS">
                 <p class="intro__texte">Future Systems est un cabinet d'architecture et de design créé en 1982, installé à Londres et dirigé par le couple Jan

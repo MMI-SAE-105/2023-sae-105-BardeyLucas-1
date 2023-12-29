@@ -5,27 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Future Origins</title>
     <link rel="stylesheet" href="/src/css/style.css" />
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
-<body>
+<body x-data="{Menu: 0}" :class="{noscroll:Menu}">
     <header class="header">
         <div class="header__bar">
             <a class="header__lien" href="index.html"><h1 class="header__title">Future Origins</h1></a>
-            <button class="header__button">
-                <img class="button__menu" src="/public/icones/Menu.svg" alt="menu">
+            <button class="header__button" @click="Menu =! Menu">
+                <img x-show="Menu == 0" class="button__menu" src="/public/icones/Menu.svg" alt="menu">
+                <img x-show="Menu == 1" class="button__menu" src="/public/icones/Croix.png" alt="quitter">               
             </button>
         </div>
-        <!--<nav class="header__menu">
+        <nav x-show="Menu == 1" class="header__menu">
             <ul class="menu__list">
                 <li class="menu__lien"><a href="#"><h2>Billetterie</h2></a></li>
                 <li class="menu__lien"><a href="form.html"><h2>Nous contacter</h2></a></li>
                 <li class="menu__lien"><a href="#"><h2>Mentions légales</h2></a></li>
             </ul>
-        </nav> -->
+        </nav>
     </header>
     <main class="index">
         <section class="section__intro">
             <div class="intro__card">
-                <img class="intro__cover" src="/public/img/Carr1.png" alt="Selfridges Building, Interieur">
+                <div class="intro__carrousel" x-data="{hrefCourant: '#ecran-1',}">
+                            <button class="intro__btn intro__btnAR" aria-label="slide précedant"
+                                @click="parent = $x1.$refs.parent, parent.scrollLeft -= parent.clientWidth">
+                                < </button><button class="intro__btn intro__btnAV" aria-label="slide suivant"
+                                        @click="$x1.$refs.parent, parent.scrollLeft += parent.clientWidth"> > </button>
+                            <div class="intro__parent" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant = '#'+
+                  [...$refs.parent.children]
+                   .find(e=>e.getBoundingClientRect().x>=0)
+                   .id
+                                     ">
+
+                    <div id="ecran-1" class="intro__ecran">
+                        <img class="intro__cover" src="/public/img/Carr1.png" alt="Selfridges Building, Interieur">
+                    </div>
+                    <div id="ecran-2" class="intro__ecran">
+                        <img class="intro__cover" src="/public/img/Carr2.png" alt="Selfridges Building, Interieur">
+                    </div>
+                    <div id="ecran-3" class="intro__ecran">
+                        <img class="intro__cover" src="/public/img/Carr3.png" alt="Selfridges Building, Interieur">
+                    </div>
+                    <div id="ecran-4" class="intro__ecran">
+                        <img class="intro__cover" src="/public/img/Carr4.png" alt="Selfridges Building, Interieur">
+                    </div>
+                    <div id="ecran-5" class="intro__ecran">
+                        <img class="intro__cover" src="/public/img/Carr5.png" alt="Selfridges Building, Interieur">
+                    </div>
+                    <div id="ecran-6" class="intro__ecran">
+                        <img class="intro__cover" src="/public/img/Carr6.png" alt="Selfridges Building, Interieur">
+                    </div>
+                </div>
+                </div>
                 <img class="intro__logo" src="/public/icones/FutureSystems.png" alt="FUTURE SYSTEMS">
                 <p class="intro__texte">Future Systems est un cabinet d'architecture et de design créé en 1982, installé à Londres et dirigé par le couple Jan
                 Kaplický et Amanda Levete avec comme directeurs associés Andrea Morgante et John O'Mara.</p>

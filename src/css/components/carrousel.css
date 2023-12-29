@@ -1,6 +1,43 @@
 .intro__carrousel{
+    position: relative;
+}
+.intro__btn{
+    position:absolute;
+    color: var(--white);
+    background-color: var(--black);
+    border:solid var(--white) 1px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 15vw;
+}
+.intro__btnAR {
+    margin-left: 10px;
+}
+.intro__btnAV{
+    margin-left: calc(100% - 50px);
+}
+.intro__parent{
     display: flex;
+
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+.intro__ecran{
+    width: 100%;
+    flex: none;
+    scroll-snap-align: start;
+}
+.intro__ecran figure {
+    margin: 0;
 }
 .intro__cover{
     width: 100%;
+}
+::-webkit-scrollbar {
+    height: 0;
+    /*Ce paramétre obligatoire semble utile qu'a affiché la scroll bar*/
 }
